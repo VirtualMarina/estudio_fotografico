@@ -1,7 +1,7 @@
 <?php
 
 function conexion(){
-  $conect = mysqli_connect('us-cdbr-iron-east-03.cleardb.net','bddde377aed8ea','acac307d','heroku_63242dc8ae565d2');
+  $conect = mysqli_connect('localhost','id4223248_estudio','estudio','id4223248_estudiofotografico');
 	mysqli_set_charset($conect, 'utf8');
 		return $conect;
 }
