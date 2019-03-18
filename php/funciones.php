@@ -1,7 +1,7 @@
 <?php
 
 function conexion(){
-  $conect = mysqli_connect('localhost','id4223248_estudio','estudio','id4223248_estudiofotografico');
+  $conect = mysqli_connect('localhost','root','','estudio');
 	mysqli_set_charset($conect, 'utf8');
 		return $conect;
 }
